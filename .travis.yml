@@ -27,3 +27,4 @@ before_install:
 script:
   - cd /home/travis/build/nyuwireless-unipd/mmwave/ns-3-dev/
   - ./waf configure --enable-tests --enable-examples && ./waf build
+  - ./test.py
